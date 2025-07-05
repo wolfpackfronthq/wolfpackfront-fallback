@@ -1,8 +1,8 @@
 {
-  "rewrites": [
-    {
-      "source": "/command-center",
-      "destination": "/command-center/index.html"
-    }
+  "version": 2,
+  "public": true,
+  "builds": [],
+  "routes": [
+    { "src": "/(.*)", "dest": "/public/$1" }
   ]
 }
