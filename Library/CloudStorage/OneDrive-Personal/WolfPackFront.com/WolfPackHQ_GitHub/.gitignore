@@ -1,0 +1,32 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs and Temp
+*.log
+*.tmp
+
+# Scripts
+deploy.sh.save
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# MacOS system folders
+Library/
+Applications/
+Desktop/
+Documents/
+Downloads/
+Movies/
+Music/
+Pictures/
+Public/
+Sites/
+Trash/
+
+# Misc
+*.swp
+*.bak
+*.old
