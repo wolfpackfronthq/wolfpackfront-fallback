@@ -1,0 +1,6 @@
+Time (EST),Milestone,Assigned To,Status
+09:12 PM,✅ T+0: Launch SITREP loader skeleton,BLACKWIRE,Scheduled
+09:42 PM,🧱 T+30: Build Command Center 3x3 grid layout frame,BLACKWIRE,Scheduled
+10:12 PM,🌐 T+60: Connect nav links to real anchors or stubs,BLACKWIRE,Scheduled
+10:42 PM,📤 T+90: Deploy first SITREP reader (static mock),BLACKWIRE,Scheduled
+11:12 PM,🎯 T+120: Push Phase 3R+ layout to SITREPs/ folder for prep,BLACKWIRE,Scheduled

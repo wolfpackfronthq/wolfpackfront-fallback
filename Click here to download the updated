@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/command-center",
+      "destination": "/command-center/index.html"
+    }
+  ]
+}
