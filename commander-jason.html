@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Commander Jason Waldron</title>
+  <style>
+    body {
+      background: black;
+      color: lime;
+      font-family: monospace;
+      padding: 40px;
+      text-align: center;
+    }
+    img {
+      width: 240px;
+      border: 4px solid lime;
+      margin-bottom: 20px;
+      box-shadow: 0 0 25px lime;
+    }
+    h1, h2 {
+      text-shadow: 0 0 8px lime;
+    }
+    .block {
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid lime;
+      width: 80%;
+      background-color: #111;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    input, textarea {
+      width: 300px;
+      background: #000;
+      border: 1px solid lime;
+      color: lime;
+      padding: 5px;
+      font-family: monospace;
+    }
+    button {
+      background-color: lime;
+      color: black;
+      padding: 5px 15px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Commander Jason Waldron</h1>
+  <img src="jason.png" alt="Commander Jason"/>
+  <h2>Division: Strategic Communications & Cultural Warfare</h2>
+
+  <div class="block">
+    <h3>🎯 Topics</h3>
+    <p>• Narrative Control<br/>• Field-Level Messaging<br/>• Morale Management<br/>• Film + Documentary Ops</p>
+  </div>
+
+  <div class="block">
+    <h3>📣 Ask Me Anything</h3>
+    <form name="commander-jason-ama" method="POST" data-netlify="true">
+      <input type="text" name="your_name" placeholder="Your Pack Name" required />
+      <textarea name="your_question" rows="5" placeholder="Your question for Commander Jason..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <div class="block">
+    <h3>🧠 Background</h3>
+    <p>Jason Waldron is the architect of Pack narrative strategy. He sees the battleground clearly—media, language, loyalty—and shapes it before most even recognize it. A commander of vision and clarity.</p>
+  </div>
+</body>
+</html>

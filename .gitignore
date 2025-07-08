@@ -3,3 +3,4 @@ Library/
 *.log
 *.bak
 *.pyc
+.vercel
