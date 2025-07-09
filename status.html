@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WolfPack Command Center - DEFCON Status</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #00ff88;
+      font-family: monospace;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    .status-box {
+      border: 2px solid #00ff88;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      background-color: #111;
+      margin-top: 20px;
+    }
+    .indicator {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .light {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    .green { background-color: #00ff00; }
+    .yellow { background-color: #ffff00; }
+    .red { background-color: #ff0000; }
+  </style>
+</head>
+<body>
+  <h1>🛰️ WOLFPACK TECH STATUS</h1>
+  <div class="status-box">
+    <h2>🌐 Global Tech DEFCON</h2>
+    <div class="indicator">
+      <span class="light green"></span> DEFCON 5 (Nominal Ops)
+    </div>
+    <p>Last Checked: <span id="timestamp">—</span></p>
+    <button onclick="refreshStatus()">🔄 Check Status</button>
+  </div>
+
+  <script>
+    function refreshStatus() {
+      document.getElementById("timestamp").innerText = new Date().toLocaleString();
+      alert("Downdetector integration is not live in this static mockup, but the visual system is ready.");
+    }
+  </script>
+</body>
+</html>
